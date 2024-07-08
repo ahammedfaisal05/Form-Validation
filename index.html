@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM & BOM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container my-5">
+       <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h3>Create an account</h3>
+                </div>
+                <div class="msg">
+                    <!-- <p class="alert alert-danger d-flex justify-content-between">Fildes must not be empty!<button class="btn-close"></button></p> -->
+                </div>
+                <div class="card-body">
+                    <form id="user_create_form" action="">
+                        <div class="my-3">
+                            <label for="">Name</label>
+                            <input id="name" class="form-control" type="text">
+                            <p class="name-req"></p>
+                        </div>
+                        <div class="my-3">
+                            <label for="">Email</label>
+                            <input id="email" class="form-control" type="text">
+                            <p class="email-req"></p>
+                        </div>
+                        <div class="my-3">
+                            <label for="">Cell number</label>
+                            <input id="cellnumber" class="form-control" type="text">
+                            <p class="cellnumber-req"></p>
+                        </div>
+                        <div class="my-3">
+                            <label for="">Username</label>
+                            <input id="username" class="form-control" type="text">
+                            <p class="username-req"></p>
+                        </div>
+                        <div class="my-3">
+                            <button class="btn btn-primary" type="submit">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./app/functions.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
